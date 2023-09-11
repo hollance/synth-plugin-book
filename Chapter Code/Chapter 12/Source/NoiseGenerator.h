@@ -13,12 +13,11 @@ public:
         // Generate the next integer pseudorandom number.
         noiseSeed = noiseSeed * 196314165 + 907633515;
 
-        // Convert the integer to a float, to get a number between 2 and 4.
-        unsigned int r = (noiseSeed & 0x7FFFFF) + 0x40000000;
-        float noise = *(float*)&r;
+        // Convert to a signed value.
+        int temp = int(noiseSeed >> 7) - 16777216;
 
-        // Subtract 3 to get the float into the range [-1, 1].
-        return noise - 3.0f;
+        // Convert to a floating-point number between -1.0 and 1.0.
+        return float(temp) / 16777216.0f;
     }
 
 private:
