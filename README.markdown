@@ -6,7 +6,7 @@ This is the source code that accompanies the book [Code Your Own Synth Plug-Ins 
 
 This 360-page book teaches step-by-step how to design and build a software synthesizer plug-in that can be used in all the popular DAWs such as Logic Pro, Ableton Live, REAPER, FL Studio, Cubase, Bitwig Studio, and others. The plug-in is made using industry standard tools for audio programming: the JUCE framework and the C++ programming language. You'll learn all the fundamentals of writing audio plug-ins in general and synths in particular, in an easy-to-follow guide that is light on math and heavy on being practical.
 
-The book is available for purchase from [The Audio Programmer](https://theaudioprogrammer.com/synth-plugin-book) as PDF and EPUB, and from [Amazon](https://amzn.to/46q1usI) as paperback.
+The book is available for purchase from [The Audio Programmer](https://theaudioprogrammer.com/learn/synth-plugin-book) as PDF and EPUB, and from [Amazon](https://amzn.to/46q1usI) as paperback.
 
 > **NOTE:** This repo accompanies the version of the book that was originally published on Leanpub.com. Visit [github.com/TheAudioProgrammer/synth-plugin-book](https://github.com/TheAudioProgrammer/synth-plugin-book) for the most up-to-date version of the source code.
 
